@@ -1,0 +1,13 @@
+--ORIETAÇÃO A OBJETOS
+--- Aproveitamento de CÓdigo;
+
+<------------->
+Design de Classes
+Fraco Acoplamento:
+❖ Como minimizar dependências e maximizar o reuso?
+❖ O acoplamento é uma medida que estabelece o nível
+de conexão entre classes, ou seja, quando uma classe
+possui conhecimento ou depende de outra classe.
+❖ Com fraco acoplamento, uma classe não é
+dependente de muitas outras classes.
+
