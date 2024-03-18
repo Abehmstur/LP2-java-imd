@@ -9,6 +9,8 @@ public class EscolaVIEW {
 		escola.cadastrarEvento();
 		escola.mostrarEvento();
 		
+		//teste
+		
 	}
 
 }
