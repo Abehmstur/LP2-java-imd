@@ -11,3 +11,32 @@ possui conhecimento ou depende de outra classe.
 ❖ Com fraco acoplamento, uma classe não é
 dependente de muitas outras classes.
 
+Coesão
+
+
+//CLASSE ESCOLA COM FORTE ACOMPLAMENTO #RUIM
+public void cadastrarEvento() {
+		Scanner scan = new Scanner(System.in);
+		String nome = "";
+		int dia, mes, ano;
+		
+		System.out.println("Informe a descricao do evento:\n");
+		nome = scan.next();
+		
+		System.out.println("Informe o dia do evento:\n");
+		dia = scan.nextInt();
+		
+		System.out.println("Informe o mes do evento:\n");
+		mes = scan.nextInt();
+		
+		System.out.println("Informe o ano do evento:\n");
+		ano = scan.nextInt();
+		
+		e.agendar(nome, data);
+	}	
+	
+	public void mostrarEvento() {
+		System.out.println("\n");
+		System.out.println("Evento: " + e.getNome());
+		System.out.println("Data: " + e.getDia() + "/" + e.getMes() + "/" + e.getAno());
+	}

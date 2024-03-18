@@ -1,14 +1,14 @@
 package aula07DesignDeClasses.modelo;
 
+import java.util.Date;
+
 public class Evento {
 	private String nome;
-	private int dia, mes, ano;
+	private Date data;
 	
-	public void agendar(String nome, int dia, int mes, int ano) {
+	public void agendar(String nome, Date data) {
 		this.nome = nome;
-		this.dia = dia;
-		this.mes = mes;
-		this.ano = ano;
+		this.data = data;
 	}
 
 	public String getNome() {
@@ -19,28 +19,14 @@ public class Evento {
 		this.nome = nome;
 	}
 
-	public int getDia() {
-		return dia;
+	public Date getData() {
+		return data;
 	}
 
-	public void setDia(int dia) {
-		this.dia = dia;
+	public void setData(Date data) {
+		this.data = data;
 	}
-
-	public int getMes() {
-		return mes;
-	}
-
-	public void setMes(int mes) {
-		this.mes = mes;
-	}
-
-	public int getAno() {
-		return ano;
-	}
-
-	public void setAno(int ano) {
-		this.ano = ano;
-	}
+	
+	
 	
 }
