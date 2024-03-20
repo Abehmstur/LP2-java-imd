@@ -1,0 +1,53 @@
+Tipo Estático e Tipo Dinâmico
+
+O tipo declarado de uma variável é seu tipo estático.
+
+O tipo do objeto ao qual uma variável se refere é seu
+tipo dinâmico.
+
+O tipo declarado de uma variável é seu tipo estático.
+O tipo do objeto ao qual uma variável se refere é seu
+tipo dinâmico.
+
+Qual o tipo de c?
+Car c = new Car();
+
+Qual o tipo de v?
+Vehicle v = new Car();
+
+Uma referência para a superclasse pode apontar para
+um objeto da subclasse.
+
+Porém:
+❖ O contrário não é verdadeiro!
+❑ Exemplo:
+❖ Todo carro é veículo, mas nem todo veículo é carro.
+❖ Pode ser uma bicicleta.
+
+Uma variável pode conter objetos de seu tipo
+declarado ou de qualquer subtipo declarado.
+
+SUPER CLASS VEICULO
+SUBCLASS CAR
+SUBCLASS BIKE
+
+Veiculo v1 = new Veiculo();
+Veiculo v2 = new Car();
+Veiculo v3 = new Bike();
+
+Variáveis podem armazenar objetos de mais de um
+tipo:
+❖ Objetos do tipo declarado; ou
+❖ Objetos do subtipo do tipo declarado
+
+Não confunda Overloading ou com Overriding.
+❑ Overloading (Sobrecarga de Método):
+❖ Same method name but different parameters.
+❖ Overloading happens at compile-time;
+❖ Static binding is being used for overloaded methods.
+❑ Overriding (Sobrescrita de Método):
+❖ Same method name and parameters (i.e., method
+signature);
+❖ Overriding happens at runtime;
+❖ Dynamic binding or Late binding is being used for
+overriding methods.

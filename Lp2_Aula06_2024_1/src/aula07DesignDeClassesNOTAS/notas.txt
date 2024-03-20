@@ -11,7 +11,7 @@ possui conhecimento ou depende de outra classe.
 ❖ Com fraco acoplamento, uma classe não é
 dependente de muitas outras classes.
 
-Coesão
+Coesão 
 
 
 //CLASSE ESCOLA COM FORTE ACOMPLAMENTO #RUIM
