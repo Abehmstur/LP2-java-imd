@@ -68,9 +68,17 @@ public class LojaView {
 		
 		depositoA.produtoComMaiorPreco();
 		
+		System.out.println("Depois da REMOCAO");
+		depositoA.listarProdutos();
+		
 		depositoA.qtdProdutosDeposito();
 		
-		depositoA.removerProduto(detergente);
+		depositoA.removerProduto(chocolate);
+		
+		System.out.println("Depois da REMOCAO");
+		depositoA.listarProdutos();
+
+		depositoA.qtdProdutosDeposito();
 		
 		depositoA.isVazio();
 

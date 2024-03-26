@@ -14,16 +14,58 @@ public class Deposito {
 		System.out.printf("Produto %s adicionado com sucesso!\n", p.getNome());
 	}
 	
+//	public void removerProduto(Produto p) {
+//		int indice = 0;
+//		for(Produto prod: produtos) {
+//			if(prod.getNome().equals(p.getNome())){
+//				indice = prod.;
+//				System.out.println("Hash: " + indice);
+//			}else {
+//				System.out.println("Produto nao encontrado!\n");
+//			}
+//		}
+//		produtos.remove(indice);
+//		System.out.printf("Produto %s removido(a) com sucesso!\n", p.getNome());
+//	}
+	
+//	public void removerProduto(Produto p) {
+//	    boolean encontrado = false;
+//	    for (Produto prod : produtos) {
+//	        if (prod.getNome().equals(p.getNome())) {
+//	            produtos.remove(prod);
+//	            encontrado = true;
+//	            break;
+//	        }
+//	    }
+//	    
+//	    if (encontrado) {
+//	        System.out.printf("Produto %s removido com sucesso!\n", p.getNome());
+//	    } else {
+//	        System.out.println("Produto não encontrado na lista.");
+//	    }
+//	}
+	
 	public void removerProduto(Produto p) {
-		for(Produto prod: produtos) {
-			if(prod.getNome().equals(p.getNome())){
-				produtos.remove(prod);
-				System.out.printf("Produto %s removido(a) com sucesso!\n", p.getNome());
-			}else {
-				System.out.println("Produto nao encontrado!\n");
-			}
-		}
+	    boolean removido = produtos.remove(p); // Tenta remover o produto da lista
+	    
+	    if (removido) {
+	        System.out.printf("Produto %s removido com sucesso!\n", p.getNome());
+	    } else {
+	        System.out.println("Produto não encontrado na lista.");
+	    }
 	}
+	
+	public void listarProdutos() {
+	    if (produtos.isEmpty()) {
+	        System.out.println("A lista de produtos está vazia.");
+	    } else {
+	        System.out.println("Lista de Produtos:\n");
+	        for (Produto prod : produtos) {
+	            System.out.println(prod.getNome()+"\n");
+	        }
+	    }
+	}
+
 	
 	public int qtdProdutosDeposito() {
 		System.out.printf("Existem %d produtos no deposito!\n", produtos.size());
