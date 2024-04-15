@@ -1,0 +1,7 @@
+************** ANOTAÇÕES ***************
+CLASSES ABSTRATAs
+- deve conter pelo menos um método abstrato;
+- não se cria instancias nela;
+- é usada para ser herdada;
+- força hierarquia;
+- método abstrato só podem existir dentro de uma classe abstrata;
