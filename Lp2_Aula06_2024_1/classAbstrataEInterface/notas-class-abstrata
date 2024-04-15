@@ -5,3 +5,7 @@ CLASSES ABSTRATAs
 - é usada para ser herdada;
 - força hierarquia;
 - método abstrato só podem existir dentro de uma classe abstrata;
+
+INTERFACES
+- sao contratos
+- um contrato define um determinado conjunto de metodos
