@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="minhas_atividades_src"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="classAbstrataEInterface"/>
+	<classpathentry kind="src" path="praticaInterface"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
