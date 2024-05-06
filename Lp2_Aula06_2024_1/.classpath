@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="classAbstrataEInterface"/>
 	<classpathentry kind="src" path="praticaInterface"/>
 	<classpathentry kind="src" path="hashMapExemple"/>
+	<classpathentry kind="src" path="prova1_U2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
