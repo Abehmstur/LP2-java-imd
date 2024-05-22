@@ -6,5 +6,7 @@
 	<classpathentry kind="src" path="provaI"/>
 	<classpathentry kind="src" path="praticaProvaI_P2"/>
 	<classpathentry kind="src" path="provaIFinal"/>
+	<classpathentry kind="src" path="praticaThreads"/>
+	<classpathentry kind="src" path="lp2_aula25_projetoExemplo"/>
 	<classpathentry kind="output" path="Lp2_Aula06_2024_1/bin"/>
 </classpath>
